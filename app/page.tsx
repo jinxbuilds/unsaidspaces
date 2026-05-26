@@ -23,7 +23,7 @@ export default function Home() {
         />
 
         {/* HERO SECTION */}
-        <section className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center overflow-hidden">
+        <section className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center overflow-hidden pt-28 md:pt-40">
 
           {/* BACKGROUND BRANDING LOGO */}
           <div className="absolute inset-0 flex items-center justify-center -z-10 opacity-5">
@@ -46,7 +46,7 @@ export default function Home() {
             UNSAID SPACES
           </p>
 
-          <h1 className="max-w-5xl text-5xl font-semibold leading-tight md:text-7xl">
+          <h1 className="max-w-5xl text-4xl sm:text-5xl md:text-7xl font-semibold leading-tight">
             Building quietly on the internet.
           </h1>
 
