@@ -111,6 +111,12 @@ export default function Home() {
 
           </div>
 
+        {/* MEDIUM SECTION */}
+        <div className="mx-auto max-w-6xl px-6">
+          <MediumSection />
+        </div>
+
+
         </section>
 
         {/* ABOUT SECTION */}
@@ -135,7 +141,6 @@ export default function Home() {
           </p>
         </section>
 
-        
 
         {/* PROJECTS SECTION */}
         <section
