@@ -8,7 +8,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Unsaid Spaces",
-  description: "Systems, thoughts, and digital spaces.",
+  description: "Photography, technology, and public-awareness writing.",
+  icons: {
+    icon: "/icon.png",
+  },
+  openGraph: {
+    title: "Unsaid Spaces",
+    description: "Photography, technology, and public-awareness writing.",
+    images: ["/unsaidspaces.png"],
+    url: "https://unsaidspaces.com",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
